@@ -44,7 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="container container-estreito">
-        <h1>Entrar no sistema</h1>
+        <h1>Sophia Tarefas</h1>
+        <h2>Entrar no sistema</h2>
 
         <?php if ($erro): ?>
             <p class="alerta alerta-erro"><?= htmlspecialchars($erro) ?></p>
